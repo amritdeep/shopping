@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+	<default>
+		<remove name="paypal.partner.right.logo" />
+		<remove name="tags_popular" />
+		<remove name="right.permanent.callout" />
+		<remove name="cart_sidebar" />
+		<remove name="catalog.compare.sidebar" />
+	</default>
+</layout>
