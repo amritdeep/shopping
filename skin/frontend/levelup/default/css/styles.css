@@ -1,3 +1,11 @@
+@import url('base.css');
+@import url('layout.css');
+@import url('skeleton.css');
+
 body {
+	color: #111;
 	background-color: #2a4e2f;
+}
+a {
+	color: white;
 }
