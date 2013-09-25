@@ -66,6 +66,19 @@ nav #nav ul {
 	display: none;
 }
 
+/* Footer */
+.footer-container{
+	background: #987275;
+	padding: 40px 0;
+}
+
+footer {
+	color: white; 
+}
+footer a {
+	color: white;
+}
+
 .col-right{
 	background: white;
 }
