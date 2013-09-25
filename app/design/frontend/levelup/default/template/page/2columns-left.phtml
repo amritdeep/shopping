@@ -30,7 +30,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 <?php echo $this->getChildHtml('head') ?>
 </head>
@@ -42,12 +42,12 @@
         <div class="container clearfix">
             <div class="main">
                 <?php echo $this->getChildHtml('breadcrumbs') ?>
+                <aside class="col-left sidebar three columns"><?php echo $this->getChildHtml('left') ?></aside>
                 <section class="col-main thirteen columns">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>
                 </section>
-                <aside class="col-right sidebar three columns"><?php echo $this->getChildHtml('right') ?></aside>
-            </div>
+            </div>  
         </div>
         <?php echo $this->getChildHtml('footer') ?>
         <?php echo $this->getChildHtml('before_body_end') ?>
