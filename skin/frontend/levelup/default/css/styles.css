@@ -4,11 +4,47 @@
 
 body {
 	color: #111;
-	background-color: #2a4e2f;
+	background: white;
 }
 a {
+	/*color: white;*/
+}
+
+.header-container{
+	background-color: #2a4e2f;
+}
+
+.main-header{
+	padding: 10px 0 8px;
+}
+
+/* Quick access links */
+.quick-access .links li {
+	display: inline;
+	margin: 0 1px;
+}
+.quick-access .links li a {
+	color: white;
+	text-decoration: none;
+}
+
+.quick-access .links li a:hover {
+	text-decoration: underline;
+}
+
+/* Search bar */
+.quick-access .form-search label {
+	display: none;
+}
+.quick-access .form-search input.input-text {
+	display: inline;
+}
+
+/* Welcome */
+.welcome-msg {
 	color: white;
 }
+
 .col-right{
 	background: white;
 }

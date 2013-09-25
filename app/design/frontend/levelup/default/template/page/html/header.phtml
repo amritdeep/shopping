@@ -29,19 +29,19 @@
 ?>
 
 <div class="header-container">
-    <div class="header">
+    <header class="container main-header">
         <?php if ($this->getIsHomePage()):?>
-        <h1 class="logo"><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+        <h1 class="logo six columns alpha"><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
         <?php else:?>
-        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+        <h2 class="logo six columns alpha"><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h2>
         <?php endif?>
-        <div class="quick-access">
-            <?php echo $this->getChildHtml('topSearch') ?>
-            <p class="welcome-msg"><h3><?php echo $this->getWelcome() ?> </h3><?php echo $this->getAdditionalHtml() ?></p>
+        <div class="quick-access six columns offset-by-four omega">
             <?php echo $this->getChildHtml('topLinks') ?>
             <?php echo $this->getChildHtml('store_language') ?>
+            <?php echo $this->getChildHtml('topSearch') ?>
         </div>
+        <p class="welcome-msg"><h3><?php echo $this->getWelcome() ?> </h3><?php echo $this->getAdditionalHtml() ?></p>
         <?php echo $this->getChildHtml('topContainer'); ?>
-    </div>
+    </header>
 </div>
 <?php echo $this->getChildHtml('topMenu') ?>
