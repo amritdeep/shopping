@@ -6,5 +6,20 @@
 		<remove name="right.permanent.callout" />
 		<remove name="cart_sidebar" />
 		<remove name="catalog.compare.sidebar" />
+
+		<reference name="head">
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/jquery.min.js</name>
+			</action>
+		</reference>
+
+		<reference name="head">
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/script.js</name>
+			</action>
+		</reference>
+
 	</default>
 </layout>
