@@ -37,6 +37,17 @@
 				<name>js/jquery.fancybox-media.js</name>
 			</action>
 
+			<!-- Jquery for zoom -->
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/jquery.zoom-min.js</name>
+			</action>
+
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/jquery.zoom.js</name>
+			</action>
+
 			<!-- action for adding Css -->
 			<!-- Css For flexslider -->
 			<action method="addCss">

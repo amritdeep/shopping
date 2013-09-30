@@ -12,4 +12,6 @@ $j(document).ready(function(){
 			media : {}
 		}
 	});
+
+	$j('.product-image-zoom').zoom();
 });
