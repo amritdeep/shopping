@@ -8,23 +8,46 @@
 		<remove name="catalog.compare.sidebar" />
 
 		<reference name="head">
+
+			<!-- action for adding Item and its jquery -->
 			<action method="addItem">
 				<type>skin_js</type>
 				<name>js/jquery.min.js</name>
 			</action>
+
 			<action method="addItem">
 				<type>skin_js</type>
 				<name>js/script.js</name>
 			</action>
 
+			<!-- Jquery For flexslider -->
 			<action method="addItem">
 				<type>skin_js</type>
 				<name>js/jquery.flexslider-min.js</name>
 			</action>
 
+			<!-- Jquery For fancybox -->
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/jquery.fancybox.pack.js</name>
+			</action>
+
+			<action method="addItem">
+				<type>skin_js</type>
+				<name>js/jquery.fancybox-media.js</name>
+			</action>
+
+			<!-- action for adding Css -->
+			<!-- Css For flexslider -->
 			<action method="addCss">
 				<stylesheet>css/flexslider.css</stylesheet>
 			</action>
+
+			<!-- Css for fancybox -->
+			<action method="addCss">
+				<stylesheet>css/jquery.fancybox.css</stylesheet>
+			</action>
+
 		</reference>
 
 	</default>
